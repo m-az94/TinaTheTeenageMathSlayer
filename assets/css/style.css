@@ -3,32 +3,44 @@
     font-family: 'Charm', cursive;
 }
 body {
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/burgerbg\ copy.jpg");
 }
 .gameHeader{
-    color:rgb(235, 157, 109);
-    background-color: #F0EACA;
+    color: #eb232d;
+    background-color: #f4e140;
     text-align:center;
-    padding: 20px;
-    margin: 20px auto 20px auto;
+    padding: 0px, 10px, 0px, 10px;
+    margin: 5px auto 5px auto;
     font-size: 20px;
-    border: 5px solid #EFBB9B;
+    border: 5px solid #eb232d;
+}
+#logo {
+    padding:0px;
 }
 #title{
     text-align: center;
     font-size: 40px;
     font-family: 'Charm', cursive;
 }
+#tina{
+    height: 350px;
+    width: auto;
+}
+#playbar{
+    background: #eb232d;
+    color: #f4e140;
+    width: 95%;
+}
 .gameplay {
-    color:rgb(235, 157, 109);
-    background-color: #F0EACA;
+    color:#eb232d;
+    background-color:#f4e140;
     padding: 20px;
     margin: 20px auto 20px auto;
     font-size: 20px;
-    border: 5px solid #EFBB9B;
+    border: 5px solid #eb232d;
     text-align: center;
 }
-img {
-    width: 200px;
+.gem {
+    width: 120px;
     height: auto;
 }

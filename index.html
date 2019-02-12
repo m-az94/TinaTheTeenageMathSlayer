@@ -18,45 +18,50 @@
         <div class="container ">
             <div class="row gameHeader">
                 <div class= "col-md-12">
-                        <p id="title"> Golden Girls Smackdown</p>
+                    <img src="assets/images/logo.png" id="logo">
                 </div>
-                <div class="col-md-12">
-                        <p id="intro">It's time. The moment of truth.  Who will reign victorious? Who will admit to a crushing defeat? Play to find out!</p>
+                <div class="col-md-4">
+                    <img src="assets/images/tina.png" id="tina">
                 </div>
-                <div class="col-md-12">
-                        <p id="headIns"> INSTRUCTIONS: Pick a player. Pick your opponents. Attack! Eliminate all the opponents to win!</p>
+                <div class="col-md-8">
+                        <p id="title"> Tina the Teenage Math Slayer</p>
+                        <p id="intro">HELP! Tina has an algebra test tomorrow and she hasn't even started studying. (She was too busy writing erotic friend fiction about Jimmy Pesto Jr.). The whole family has rallied together to help her.</p>
+                        <p id="headIns">Each Belcher represents a secret number. Click on the belchers to add up to the target number. But don't get carried away. If you overshoot the target, you LOSE!</p>
+                        <div class="row" id="playbar">
+                                <div class="col-md-3">
+                                    <p>Counter: </p>
+                                        <div id="counter"> </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Wins:</p>
+                                        <div id="wins"></div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Losses: </p>
+                                        <div id="losses"></div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Target: </p>
+                                        <div id="target"></div>
+                                    </div>
+                        </div>
                 </div>
             </div>
             <div class="gameplay">
                 <div class="row selectPlayer">
-                    <p class="col-md-12"> Select Your Player </p>
-                    <div class="col-md-3 setplayer" id="sofia">
-                        <img src="assets/images/sofia.jpg">
+                    <p class="col-md-12"> Select Your Belcher </p>
+                    <div class="col-md-3">
+                        <img src="assets/images/bob.png" class="gem" id="bob">
                     </div>
-                    <div class="col-md-3 setplayer" id="dorothy">
-                        <img src="assets/images/dorothy.jpg">
+                    <div class="col-md-3">
+                        <img src="assets/images/linda.png"class="gem"id="linda">
                     </div>
-                    <div class="col-md-3 setplayer" id="blanche">
-                        <img src="assets/images/blanche.jpg">
+                    <div class="col-md-3">
+                        <img src="assets/images/gene.png" class="gem"id="gene">
                     </div>
-                    <div class="col-md-3 setplayer" id="rose">
-                        <img src="assets/images/rose.jpg">
+                    <div class="col-md-3">
+                        <img src="assets/images/louise.png" class="gem" id="louise">
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 selectOpponent">Select Your Opponent</div>
-                </div>
-                <div class="row">
-                    <p class="col-md-12">Fight Section</p>
-                    <button class="col-md-12" id="attack">Attack</button>
-                </div>
-                <div class="row">
-                    <p class="col-md-12">Defender</p>
-                    <div class="opponent"></div>
-                </div>
-                <div class="status">
-                    <div class="col-md-12" id="yourstatus"></div>
-                    <div class="col-md-12" id="opponentstatus"></div>
                 </div>
             </div>
         </div>
