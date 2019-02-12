@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RPG Game</title>
+        <!-- Reset -->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Charm" rel="stylesheet">
+        <!-- Bootstrap File -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- style.css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="container ">
+            <div class="row gameHeader">
+                <div class= "col-md-12">
+                        <p id="title"> Golden Girls Smackdown</p>
+                </div>
+                <div class="col-md-12">
+                        <p id="intro">It's time. The moment of truth.  Who will reign victorious? Who will admit to a crushing defeat? Play to find out!</p>
+                </div>
+                <div class="col-md-12">
+                        <p id="headIns"> INSTRUCTIONS: Pick a player. Pick your opponents. Attack! Eliminate all the opponents to win!</p>
+                </div>
+            </div>
+            <div class="gameplay">
+                <div class="row selectPlayer">
+                    <p class="col-md-12"> Select Your Player </p>
+                    <div class="col-md-3 setplayer" id="sofia">
+                        <img src="assets/images/sofia.jpg">
+                    </div>
+                    <div class="col-md-3 setplayer" id="dorothy">
+                        <img src="assets/images/dorothy.jpg">
+                    </div>
+                    <div class="col-md-3 setplayer" id="blanche">
+                        <img src="assets/images/blanche.jpg">
+                    </div>
+                    <div class="col-md-3 setplayer" id="rose">
+                        <img src="assets/images/rose.jpg">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 selectOpponent">Select Your Opponent</div>
+                </div>
+                <div class="row">
+                    <p class="col-md-12">Fight Section</p>
+                    <button class="col-md-12" id="attack">Attack</button>
+                </div>
+                <div class="row">
+                    <p class="col-md-12">Defender</p>
+                    <div class="opponent"></div>
+                </div>
+                <div class="status">
+                    <div class="col-md-12" id="yourstatus"></div>
+                    <div class="col-md-12" id="opponentstatus"></div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </body>
+</html>
